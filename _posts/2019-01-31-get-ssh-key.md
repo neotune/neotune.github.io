@@ -68,7 +68,7 @@ git 서버가 여러개 있을 경우(회사 내부, github, bitbucket 등) 개�
        PreferredAuthentications publickey
        IdentityFile ~/.ssh/github/id_rsa
    Host *
-   	PreferredAuthentications publickey
+       PreferredAuthentications publickey
        IdentityFile ~/.ssh/id_rsa
    ```
 
