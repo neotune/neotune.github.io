@@ -19,5 +19,5 @@ mathjax: true
 
 ## 다운로드
 
-1. [D2Coding Font](https://github.com/naver/d2codingfont)
-2. Monokai Sublime Text3 Theme D2Coding Version
+1. [D2Coding Font](https://github.com/naver/d2codingfont){:target="_blank"}
+2. [Monokai Sublime Text3 Theme D2Coding Version](/assets/Monokai Sublime Text D2Coding.jar){:target="_blank"}
