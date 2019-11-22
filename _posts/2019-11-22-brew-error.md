@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 맥 zsh 쉘에서 git branch 명령어 실행 시 branch 리스트가 화면 전환되어 출력될때
+title: brew 명령어 실행시 Ignoring commonarker 오류 출력
 mathjax: true
 ---
 ## brew 명령어 실행시 Ignoring commonarker 오류 출력
@@ -26,6 +26,7 @@ Ignoring commonmarker-0.17.13 because its extensions are not built.  Try: gem pr
 ### 해결방법
 
 1. `brew install` 실행시 나왔던 메세지 중 `try:` 이후 출력된 명령어를 sudo 권한으로 실행 (ex : sudo gem pristine commonmarker --version 0.17.13)
+  
   ```bash
   $ sudo gem pristine commonmarker --version 0.17.13
   Password:
@@ -33,8 +34,8 @@ Ignoring commonmarker-0.17.13 because its extensions are not built.  Try: gem pr
   Restoring gems to pristine condition...
   Building native extensions.  This could take a while...
   Restored commonmarker-0.17.13 
-  ```
-
+```
+  
 2. 정상 실행 여부 확인을 위해 아래 명령어 실행 (ex : gem list | grep commonmarker)
   ```bash
   # 해결 완료 상태 일 경우
