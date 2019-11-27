@@ -1,7 +1,7 @@
 ---
 layout: article
 title: kibana scripted field sample
-tag: elasticsearch, kibana, scripted field
+tag: [elasticsearch, kibana, scripted field]
 mathjax: true
 ---
 ## kibana scripted field sample
